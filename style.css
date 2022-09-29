@@ -1,0 +1,21 @@
+body {
+    background: #00010f;
+    display: flex;
+    justify-content: center;
+
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(16, 35px);
+    /*gap: 0.5px;
+    padding: 5px;*/
+    margin-top: 20px;
+    color: wheat;
+    /*border: 2px solid yellow;*/
+}
+.content-div {
+    /*width: 63px;*/
+    height: 32px;
+    border: 2px solid red;
+    /*margin: 1.5px;*/
+}
