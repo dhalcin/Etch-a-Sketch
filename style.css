@@ -1,21 +1,27 @@
+/*The-Odin-Project*/
 body {
     background: #00010f;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
 
+
+#btn {
+    margin-top: 30px;
 }
+
 .container {
-    display: grid;
-    grid-template-columns: repeat(16, 35px);
-    /*gap: 0.5px;
-    padding: 5px;*/
-    margin-top: 20px;
-    color: wheat;
-    /*border: 2px solid yellow;*/
+    margin-top: 30px;
+    display: grid;    
+    width: 650px;
+    height: 650px;
+    /*border: 2px solid red;*/
 }
+
 .content-div {
-    /*width: 63px;*/
-    height: 32px;
+    width: auto;
+    height: auto;
     border: 2px solid red;
-    /*margin: 1.5px;*/
 }
